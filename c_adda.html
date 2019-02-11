@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar-brand {
+      height: 90px;
+      width: 100%;
+    }
+
+    .navbar-header h3:hover{
+      color: lightblue;
+    }
+    .navbar {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 0;
+          font-size: 20px;
+          letter-spacing: 0px;
+      }
+
+    .navbar-nav  li a:hover {
+          color: #1abc9c !important;
+    }
+
+    .navbar-nav a{
+      color: white;
+      text-decoration-line: underline;
+    }
+
+  body {
+     background-image: url("img/background3.png");
+     background-repeat: no-repeat;
+     background-size: 1650px 100%;
+   }
+
+    input:focus {
+      border: 3px solid tomato;
+      border-color: white;
+      background-color: lightblue;
+    }
+
+    footer a:hover{
+      padding: 5px;
+      font-size: 20px;
+      color: lightblue;
+    }
+
+    footer a{
+      padding: 5px;
+      font-size: 20px;
+      color: white;
+    }
+
+    input {
+      box-sizing: border-box;
+      border-color: white;
+    }
+
+    .form-horizontal{
+
+      font-family: 'PT Sans', sans-serif;
+
+    }
+
+    .control-label h2{
+      color: white;
+      margin-top: 100px;
+      letter-spacing: 5px;
+      text-align: center;
+    }
+
+    .control-label h4{
+      color: white;
+    }
+
+    .control-label h4:hover, h2:hover{
+      color: black;
+    }
+
+    .btn {
+      color: white;
+      font-size: 15px;
+    }
+
+    .logo_ren{
+      position: absolute;
+      left: 35%;
+      animation: pop 7s;
+      z-index: 1;
+      animation-fill-mode: both;
+    }
+    @keyframes pop {
+      from{
+        -webkit-transform: translate(0px,-200px);
+      }
+      to{
+        -webkit-transform: translate(0px , -28px);
+        }
+    }
+
+
+  </style>
+
+
+</head>
+
+<nav class="navbar ">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"><img src="img/jecrc.png" id="jecrc" width="15%" height="auto"></a>
+        <img class="logo_ren" src="img/renaisss.png" width="35%" height="auto" alt="">
+      </div>
+    </div>
+</nav>
+
+<body>
+  <br><br>
+  <form class="form-horizontal" action="#">
+    <div class="form-group">
+      <div class="col-sm-4"></div>
+      <label class="control-label col-sm-5" for="form"><em><b><h2>Registration Form Of <br>"ADDA"</b></em></h2></label>
+      <div class="col-sm-3">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Registration"><em><b><h4>Registration Fees:</em></b></h4></label>
+      <label class="control-label col-sm-1" ><em><b><h4>1200 /- INR</em></b></h4></label>
+      <div class="col-sm-3">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="College"><em><b><h4>College Name:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="name" class="form-control" id="College" placeholder="Enter College Name" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Group-Name"><em><b><h4>Group Name:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="Name" class="form-control" id="Group-Name" placeholder="Enter Name" required>
+      </div>
+    </div>
+
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Coordinator's-Name"><em><b><h4>Coordinator's Name:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="Name" class="form-control" id="Coordinator's-Name" placeholder="Enter Name" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Mobile-no"><em><b><h4>Mobile no.:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="text" class="form-control" id="Mobile-no" placeholder="Enter Mobile No." maxlength="10" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="email-id"><em><b><h4>Email-id:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="email" class="form-control" id="email-id" placeholder="Enter email id" required>
+      </div>
+    </div>
+
+
+
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="city"><em><b><h4>City:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="name" class="form-control" id="city" placeholder="Enter Your city" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Participants"><em><b><h4>No. of Participants:</em></b></h4></label>
+      <div class="col-sm-3">
+        <input type="name" class="form-control" id="Participants" placeholder="Enter No. of Participants" required>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Payment"><em><b><h4>Mode of Payment:</em></b></h4></label>
+      <div class="col-sm-3">
+        <select class="form-control" id="Payment" >
+          <option>Paytm</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-5" for="Paytm"><em><b><h4>Paytm No.:</em></b></h4></label>
+      <label class="control-label col-sm-1" ><em><b><h4>9660664439</em></b></h4></label>
+      <div class="col-sm-3">
+      </div>
+    </div>
+
+
+
+    <div class="form-group">
+      <div class="control-label col-sm-6">
+        <button type="submit" class="btn btn-info"><b>Submit</b></button>
+      </div>
+    </div>
+  </form>
+  <br>
+
+</body>
+</html>

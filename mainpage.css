@@ -1,0 +1,92 @@
+html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: none;
+  margin: none;
+}
+footer, body, header{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url("img/background3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  padding: none;
+  margin: none;
+  -webkit-perspective: 2000px;
+  min-height: 100%;
+  min-width: 100%;
+  position: relative;
+}
+
+
+/*  LOGO  */
+/*#jecrc{
+  position: absolute;
+  top: -40%;
+  left: 100px;
+  z-index: 99;
+}*/
+
+#jecrc{
+  z-index: 0;
+  margin-left: 42%;
+}
+
+/*  CLOUDS  */
+marquee{
+  z-index: -2;
+  opacity: 0;
+}
+header{
+  width: 100%;
+}
+/* Bulb */
+#ad{
+  position: absolute;
+  top: 0%;
+  z-index: -1;
+  margin-left: -5%;
+}
+
+/*  Tent  */
+/*.tent {
+ position: absolute;
+ top: -50px;
+ left: -36%;
+ animation: zoom 4s infinite;
+}*/
+.tent{
+  animation: zoom 4s infinite;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@keyframes zoom {
+  0%{
+    transform: scale(1)  ;
+    }
+    50%{
+      transform: scale(1.05);
+    }
+  100%{
+    transform: scale(1);
+  }
+}
+
+.tent:hover{
+  animation: paused;
+}
+
+/*.white{
+  position: absolute;
+  top: 605px;
+  z-index: 1;
+  left: 0%;
+}*/
