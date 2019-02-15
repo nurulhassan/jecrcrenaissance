@@ -1,13 +1,7 @@
 
 var images = new Array();
-images[0] = "img/gbulb.png";
-images[1] = "img/bulb.png";
-
-
-var batti = new Array();
-batti[0] = "img/lamp.png";
-batti[1] = "img/llamp.png";
-
+images[0] = "img/gbulb1.png";
+images[1] = "img/bulb1.png";
 
 function changeImage() {
   document.getElementById('ad').src = images[x];
@@ -19,7 +13,6 @@ function changeImage() {
   }
 
 }
-
 
 window.onload = function() {
   var x = 0;

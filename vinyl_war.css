@@ -55,7 +55,7 @@ body {
   text-decoration: underline;
   z-index: 99;
 }
-
+/*
 .about h4 {
   margin-top: 5%;
   padding: 0px;
@@ -93,6 +93,95 @@ body {
   line-height: 2em;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
+*/
+
+.nav {
+  margin-top: 8%;
+  margin-left: 5%;
+  margin-right: 0px;
+  text-align: center;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+  font-family: 'Futura Medium', serif;
+  font-style: italic;
+  color: black;
+  text-decoration: underline;
+  z-index: 99;
+}
+
+.about h4 {
+  margin-top: 5%;
+  margin-left: -50%;
+  padding: 0px;
+  line-height: 1.5em;
+  text-align: center;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.about h3{
+  margin-top: 5%;
+  margin-left: 50%;
+  padding: 0px;
+  line-height: 1.2em;
+  word-spacing: inherit;
+  text-align: center;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.about h2{
+  margin-left: -50%;
+  margin-top: 5%;
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Abril Fatface', cursive;
+  font-style: normal;
+}
+
+.reg h2{
+  margin: 5%;
+  margin-left: 40%;
+  left: -0px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.reg p{
+  padding: 80px;
+  margin-top: -7%;
+  margin-left: 20%;
+  line-height: 1.7em;
+  font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.agent h3{
+    margin-top: 0%;
+    margin-left: 0%;
+}
+
+.beat h2{
+  margin-left: 0%;
+}
+
+.beats li{
+  margin-left: -7%;
+  margin-right: 5%;
+}
+
+.beat h4{
+  margin-left: 0%;
+}
+
+.brul p{
+  margin-top: -5%;
+  margin-left: 0%;;
+}
+
+.agent{
+  line-height: .5em;
+}
+
+.agents p{
+  margin-left: 20%;
+  line-height: 1.5em;
+}
 
 .raganight p{
   line-height: 1.7em;
@@ -109,17 +198,28 @@ body {
   margin-top: -8.5%;
 }
 
+.adaa h2{
+  margin-left: -50%;
+}
+
 .adaa p{
+  margin-left: 15%;
   line-height: 1.2em;
   padding: none;
 }
 .click {
+  margin-left: -18%;
   text-align: center;
   margin-top: 5%;
 }
 
 .click p, a{
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
+}
+
+.clickb {
+  text-align: center;
+  margin-left: 0%;
 }
 
 .nav a{

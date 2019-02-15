@@ -1,0 +1,24 @@
+html{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(img/background3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.ren{
+  position: absolute;
+}
+.tent{
+  position: absolute;
+  bottom: 0;
+}

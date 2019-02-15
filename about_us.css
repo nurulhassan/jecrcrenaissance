@@ -45,6 +45,7 @@ body {
 
 .nav {
   margin-top: 8%;
+  margin-left: 2%;
   text-align: center;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
   font-family: 'Futura Medium', serif;
@@ -55,23 +56,24 @@ body {
 }
 
 .about p, ul {
-  margin-top: 5%;
-  margin-left: 5%;
+  margin-top: 1%;
+  margin-left: 45%;
+  text-align: left;
   padding: 0px;
-  line-height: 2em;
+  line-height: 1.9em;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
 }
 
 .reg h2{
   margin: 10px;
   left: -0px;
-  font-family: 'Abril Fatface', cursive;
+  font-family: 'PT Sans', sans-serif;
 }
 
 .reg p{
-  padding: 80px;
-  margin-top: -6.5%;
-  margin-left: -5%;
+  padding: 5%;
+  margin-top: -5%;
+  margin-left: 25%;
   line-height: 2em;
   text-align: left;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;

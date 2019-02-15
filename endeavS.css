@@ -34,7 +34,7 @@ body {
 /*  LOGO  */
 #jecrc{
   position: absolute;
-  left: -10%;
+  left: 0%;
   top: 10px;
   z-index: 10;
 }
@@ -61,7 +61,7 @@ body {
 
 .adaa{
   position: absolute;
-  top: 170px;
+  top: 0px;
   animation: log 2s;
   animation-delay: 0s;
   animation-fill-mode: both;
@@ -69,49 +69,49 @@ body {
 
 .anupras{
   position: absolute;
-  top: 170px;
+  top: 0px;
   animation: log 2s;
   animation-delay: .5s;
   animation-fill-mode: both;
 }
 .bootstrapping{
   position: absolute;
-  top: 170px;
+  top: 0px;
   animation: log 2s;
   animation-delay: 1s;
   animation-fill-mode: both;
 }
 .footloose{
   position: absolute;
-  top: 170px;
+  top: 0px;
   animation: log 2s;
   animation-delay: 1.5s;
   animation-fill-mode: both;
 }
 .raga_night{
   position: absolute;
-  top: 470px;
+  top: 250px;
   animation: log 2s;
   animation-delay: 2s;
   animation-fill-mode: both;
 }
 .nukkad_natak{
   position: absolute;
-  top: 470px;
+  top: 250px;
   animation: log 2s;
   animation-delay: 2.5s;
   animation-fill-mode: both;
 }
 .rockathon{
   position: absolute;
-  top: 470px;
+  top: 250px;
   animation: log 2s;
   animation-delay: 3s;
   animation-fill-mode: both;
 }
 .vinyl_war{
   position: absolute;
-  top: 470px;
+  top: 250px;
   animation: log 2s;
   animation-delay: 3.5s;
   animation-fill-mode: both;

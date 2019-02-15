@@ -34,7 +34,7 @@ body {
 /*  LOGO  */
 #jecrc{
   position: absolute;
-  left: -10%;
+  left: 10%;
   top: 10px;
   z-index: 10;
 }

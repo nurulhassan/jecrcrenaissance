@@ -25,14 +25,16 @@
 <body>
 
 <div class="container-fluid">
-  <ul class="nav col-xs-12">
-		<div class="col-xs-2"></div>
-    <a data-toggle="tab" href="#home"><li class="active col-xs-2">Participation</a></li>
-    <a class="inactive" data-toggle="tab" href="#how"><li class="col-xs-2">How to Reach</a></li>
-    <a class="inactive" data-toggle="tab" href="#menu2"><li class="col-xs-2">Accomadation</a></li>
-    <a data-toggle="tab" href="#form"><li class="active col-xs-2">Contact</a></li>
-		<div class="col-xs-2"></div>
+	<div class="col-xs-2"></div>
+	<div class="col-xs-1"></div>
+
+  <ul class="nav nav-tabs col-xs-6">
+    <a data-toggle="tab" href="#home"><li class="active col-xs-3">Participation</a></li>
+    <a class="inactive" data-toggle="tab" href="#how"><li class="col-xs-3">How to Reach</a></li>
+    <a class="inactive" data-toggle="tab" href="#menu2"><li class="col-xs-3">Accommodation</a></li>
+    <a data-toggle="tab" href="#form"><li class=" col-xs-3">Contact</a></li>
   </ul>
+	<div class="col-xs-2"></div>
 
   <div class="tab-content">
     <div id="home" class="tab-pane fade in active">
@@ -51,8 +53,9 @@
 			<div class="col-xs-2"></div>
 				<div class="col-xs-9 reg adaa">
 					<b><p>
+						Address: Opposite EPIP Gate, Near Sanganer Sadar Thana, Tonk Road, Jaipur- 302022<br>
+						Tel:no -: <a href="tel:0141-2770120">0141-2770120</a>, <a href="tel:0141-2770232">2770232</a><br><br>
             From Jaipur Central Railway Station / SindhiCamp Bus Stand :<br><br>
-
               Ola/Uber/Jugnoo and autos are easily available from the Jaipur Central Railway Station / SindhiCamp Bus Stand.<br>
               The estimated rates are Rs. 150-200.</p></b>
 				</div>
@@ -69,7 +72,7 @@
               All registered participants that come to JECRC will be provided accommodation on first come first serve basis on the campus.
             </li>
             <li>
-              Accommodation will be provided from 7th evening. You are required to report to the coordinator of the event you are participating in as soon as you arrive at the campus.
+              Accommodation will be provided from 24th evening. You are required to report to the coordinator of the event you are participating in as soon as you arrive at the campus.
                You can also look out for directions in the campus to reach the hospitality desk.
             </li>
             <li>
@@ -82,7 +85,7 @@
               Accommodation is free of cost for the day of the event you have come to participate in.Any prior or post stay is chargeable at Rs.100 per person which includes breakfast.
             </li>
             <li>
-              Lunch and dinner facility in hostel are chargeable and coupons for the same can be bought from accomodation coordinators of your hostel at a charge of Rs.40 per person.
+              Lunch and dinner facility in hostel are chargeable and coupons for the same can be bought from accomodation coordinators of your hostel at a charge of Rs.50 per person.
             </li>
             <li>
               A caution deposit of Rs.200 per person will be charged at the time of handing over the room to participants.The deposit will be refunded if no damage is caused to the room because of the above mentioned stay.
@@ -93,53 +96,48 @@
 				<div class="col-xs-3"></div>
 	    </div>
 		</div>
-
     <div id="form" class="tab-pane fade">
+
       <div class="row">
-			<div class="col-xs-2"></div>
-				<div class="col-xs-9 form ">
 
-					<div class="row ">
-            <div class="col-sm-3"></div>
-            <label class="control-label col-sm-2" for="Customer"><em><b><h4>Name:-</em></b></h4></label>
-            <div class="col-sm-3">
-              <input type="Name" class="form-control" id="Customer" placeholder="Enter Name" >
-            </div>
-          </div>
+			<div class="col-xs-3"></div>
+				<div class="col-xs-8 form ">
 
-          <div class="row ">
-            <div class="col-sm-3"></div>
-            <label class="control-label col-sm-2" for="email-id"><em><b><h4>Email-id-:</em></b></h4></label>
-            <div class="col-sm-3">
-              <input type="email" class="form-control" id="email-id" placeholder="Enter email id" >
-            </div>
-          </div>
+<form role="form" id="contact-form" class="contact-form" name="contact-form" action="https://formspree.io/renaissance@jecrc.ac.in" method="post">
+				            <!-- Name -->
+										<br><br><br>
 
-          <div class="row ">
-            <div class="col-sm-3"></div>
-            <label class="control-label col-sm-2" for="mobile no:"><em><b><h4>Mobile no:-</em></b></h4></label>
-            <div class="col-sm-3">
-              <input  class="form-control" id="mobile no:" placeholder="Enter Mobile No.">
-            </div>
-          </div>
+                                <div class="col-md-4">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" name="Name" class="form-control" required="required" placeholder="Name"><br>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" name="mobile" class="form-control" required="required" placeholder="Mobile Number"><br>
+                                    </div>
+                                </div>
+								<div class="col-md-4">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" required="required" placeholder="E-Mail"><br>
+                                    </div>
+                                </div>
 
-          <div class="row ">
-            <div class="col-sm-3"></div>
-            <label class="control-label col-sm-2" for="Message"><em><b><h4>Enter Message</em></b></h4></label>
-            <div class="col-sm-3">
-              <input type="name" class="form-control" id="Message" placeholder="Enter Message" style="height:100px">
-            </div>
-          </div>
-
-          <div class="row ">
-            <div class="col-sm-5"></div>
-            <div class="control-label col-sm-6">
-              <button type="submit" class="btn btn-info"><b>Submit</b></button>
-            </div>
-          </div>
+							<!-- Message Area -->
+                            <div class="form-group">
+                                <textarea name="message" id="message"  class="form-control" placeholder="Write you message here..." style="height:200px;"></textarea>
+                            </div>
+							<!-- Subtmit Button -->
+                            <button type="submit" class="btn btn-send ">
+                              Submit
+                            </button>
+                        </form>
 
 				</div>
-			<div class="col-xs-1"></div>
+			<div class="col-xs-3"></div>
     </div>
   </div>
   </div>

@@ -1,0 +1,117 @@
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+
+.nav{
+  margin-top: 3%;
+  margin-left: 22%;
+  z-index: 99;
+}
+
+nav-tabs{
+  margin-left: 35%;
+}
+
+.inactive{
+	color: white;
+  text-align: center;
+}
+
+.tab-pane h4{
+  color: #e6fffa;
+  margin-left: 90%;
+  text-align: center;
+}
+
+.logo img{
+  margin-top: 50%;
+  margin-left: 10%;
+  padding: 0%;
+}
+
+.logo p{
+  color: white;
+  margin-left: 30%;
+  text-align: center;
+}
+
+body h1{
+  color: #e6fffa;
+  padding-left: 45%;
+}
+
+h1:hover{
+  color: #e6fffa;
+  text-decoration: underline;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+#day2 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+#day2 th{
+  padding: 2%;
+}
+
+.logo {
+  margin-top: 10%;
+}
+
+.logo th{
+  font-weight: normal;
+}
+
+table td {
+    border: 1px solid #dddddd;
+    padding: 2%;
+    text-align: center;
+}
+
+tr:hover{
+  font-size: 1.1em;
+  font-weight: bolder;
+  padding: -5%;
+  cursor: pointer;
+}
+
+table th {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+
+}
+
+.top{
+  text-decoration: underline;
+  padding: -2%;
+}
+
+.top th{
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #79a6d2;
+}

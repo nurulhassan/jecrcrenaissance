@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    .navbar-brand {
+      height: 90px;
+      width: 100%;
+    }
+
+    .navbar-header h3:hover{
+      color: lightblue;
+    }
+    .navbar {
+          padding-top: 0px;
+          padding-bottom: 0px;
+          border: 0;
+          border-radius: 0;
+          margin-bottom: 0;
+          font-size: 20px;
+          letter-spacing: 0px;
+      }
+
+    .navbar-nav  li a:hover {
+          color: #1abc9c !important;
+    }
+
+    .navbar-nav a{
+      color: white;
+      text-decoration-line: underline;
+    }
+
+  body {
+     background-image: url("background3.png");
+     background-repeat: no-repeat;
+     background-size:  100%;
+   }
+
+    input:focus {
+      border: 3px solid tomato;
+      border-color: white;
+      background-color: lightblue;
+    }
+
+    footer a:hover{
+      padding: 5px;
+      font-size: 20px;
+      color: lightblue;
+    }
+
+    footer a{
+      padding: 5px;
+      font-size: 20px;
+      color: white;
+    }
+
+    input {
+      box-sizing: border-box;
+      border-color: white;
+    }
+
+    .form-horizontal{
+
+      font-family: 'PT Sans', sans-serif;
+
+    }
+
+    .control-label h2{
+      color: white;
+      margin-top: 100px;
+      letter-spacing: 5px;
+      text-align: center;
+    }
+
+    .control-label h4{
+      color: white;
+    }
+
+    .control-label h4:hover, h2:hover{
+      color: black;
+    }
+
+    .btn {
+      color: Blue;
+      font-size: 15px;
+    }
+
+    .logo_ren{
+      position: absolute;
+      left: 35%;
+      animation: pop 7s;
+      z-index: 1;
+      animation-fill-mode: both;
+    }
+    .radio-inline{
+      color: white;
+    }
+
+    @keyframes pop {
+      from{
+        -webkit-transform: translate(0px,-200px);
+      }
+      to{
+        -webkit-transform: translate(0px , -28px);
+        }
+    }
+
+
+  </style>
+
+
+</head>
+
+
+
+<body>
+  <br>
+      <div class="form-group">
+      <div class="col-sm-4"></div>
+      <label class="control-label col-sm-5" for="form"><em><b><h2>Registration Form of <br>"CE"</b></em></h2></label>
+      <div class="col-sm-3">
+      </div>
+    </div>
+  <form role="form" id="contact-form" class="contact-form" name="contact-form" action="https://formspree.io/nanuramjat.ce19@jecrc.ac.in" method="post">
+				            <!-- Name -->
+								
+                                <div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="text" name="Event" class="form-control" required="required" placeholder="Event's Name"><br>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" name="Leader" class="form-control" required="required" placeholder="Team Leader's Name"><br>
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" name="college" class="form-control" required="required" placeholder="College Name"><br>
+                                    </div>
+                                </div>
+								<div class="col-md-6">
+								    <!-- E-Mail -->
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" required="required" placeholder="Email ID"><br>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" name="city" class="form-control" required="required" placeholder="City"><br>
+                                    </div>
+                                </div>
+								<div class="col-md-4">
+								    <!-- Phone Number -->
+                                    <div class="form-group">
+                                        <input type="text" name="Mobile" class="form-control" required="required" placeholder="Mobile Number"><br>
+                                    </div>
+                                </div>
+								<div class="col-md-4">
+								  <div class="form-group">
+									
+									<input type="text" class="form-control" name="Participants" required="required" placeholder="No. of Participants"><br>
+									  
+								  </div>
+								</div>
+							<!-- Message Area -->
+                            <div class="form-group">
+                                <textarea name="message" id="message"  class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
+                            </div>
+							<!-- Subtmit Button -->
+                            <button type="submit" class="btn btn-send ">
+                                Submit
+                            </button>
+                        </form>
+  <br>
+
+</body>
+</html>

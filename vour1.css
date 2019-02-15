@@ -34,7 +34,7 @@ body {
 /*  LOGO  */
 #jecrc{
   position: absolute;
-  left: -10%;
+  left: 10%;
   top: 10px;
   z-index: 10;
 }
@@ -75,6 +75,14 @@ body {
   animation-fill-mode: both;
 }
 .twitter{
+  position: absolute;
+  top: 190px;
+  animation: log 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.twitters{
   position: absolute;
   top: 170px;
   animation: log 2s;

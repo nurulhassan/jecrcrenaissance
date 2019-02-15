@@ -44,7 +44,7 @@ body {
 }
 
 .nav {
-  margin-top: 10%;
+  margin-top: 8%;
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
@@ -57,6 +57,7 @@ body {
 }
 
 .about li {
+  margin-left: 40%;
   margin-top: 5%;
   padding: 0px;
   line-height: 2em;
@@ -90,6 +91,7 @@ body {
 .reg p{
   padding: 80px;
   margin-top: 0%;
+  margin-left: 25%;
   line-height: 2em;
   font-size: 1.5em;
   font-family: Futura, Futura-Medium, "Futura Medium", "Century Gothic", CenturyGothic, "Apple Gothic", AppleGothic, "URW Gothic L", "Avant Garde", sans-serif;
@@ -116,6 +118,8 @@ body {
 }
 .click li{
   text-align: left;
+  margin-left: 50%;
+  width: 100%;
   margin-top: 1.5%;
   line-height: 1.3em;
 }
@@ -138,7 +142,8 @@ body {
 }
 
 .form{
-  margin-top: 4%;
+  margin-top: -2%;
+  margin-left: 15%;
 }
 
 
@@ -162,9 +167,23 @@ input {
 }
 
 .btn {
-  margin-top: 1%;
+  margin-top: -2%;
   color: white;
   font-size: 15px;
+}
+
+
+.accomadation li{
+  margin-left: -5%;
+}
+
+
+.cont {
+  margin-top: 15%;
+}
+/*
+.cont h4{
+  margin-top: 10%;
 }
 /*
 .navbar-brand {
