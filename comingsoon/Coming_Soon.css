@@ -197,3 +197,27 @@ h1 span:nth-child(11){
     align-items: center;
     margin-top: -48px;
 }
+
+@media only screen and (max-width: 600px) {
+ .head_main {
+    display: -webkit-box;
+    position: relative;
+    align-items: center;
+    margin-top: 212px;
+}
+.smoke {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-top: 43px;
+    transform: translate(-50%,-50%);
+}
+.button {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    position: relative;
+    display: block;
+    margin-top: 214px;
+}
+}
