@@ -168,13 +168,17 @@ h1 span:nth-child(11){
 
 @media(max-width: 767px ){
 	.smoke{
-		width: 100%;
-		margin: auto;
-	} 
+	display: block;
+    position: absolute;
+    left: 50%;
+    margin-top: 44px;
+    transform: translate(-50%,-50%);
+	}
 	h1{
 		width: 100%;
 		margin: auto;
 	}
+
 }
 
 .button {
@@ -196,32 +200,6 @@ h1 span:nth-child(11){
     position: relative;
     align-items: center;
     margin-top: -48px;
-<<<<<<< HEAD
-}
-=======
+
 }
 
-@media only screen and (max-width: 600px) {
- .head_main {
-    display: -webkit-box;
-    position: relative;
-    align-items: center;
-    margin-top: 212px;
-}
-.smoke {
-    display: block;
-    position: absolute;
-    left: 50%;
-    margin-top: 44px;
-    transform: translate(-50%,-50%);
-}
-.button {
-    color: #fff;
-    text-align: center;
-    font-size: 2em;
-    position: relative;
-    display: block;
-    margin-top: 214px;
-}
-}
->>>>>>> efd9ab3b4046964821e86b5fe26742b7ceeb44b8
