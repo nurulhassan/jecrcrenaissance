@@ -145,40 +145,40 @@
 
 
 
-		// const body = document.getElementsByTagName('body')[0]
-		// const loaderHtml = `
-		// <div id="center-preload">
-		// <div id="suns">
-		// <img class="ren-logo" src="elmt/ren-logo.png" alt="ren19-logo">
-		// <div class="sunss" style="width: 16%;">
-		// <img id="sun1" src="elmt/sun2.png" alt="sun2">
-		// <img src="elmt/sun1.png" alt="" style="display: none;">
-		// </div>
-		// </div>
-		// </div>`
+		const body = document.getElementsByTagName('body')[0]
+		const loaderHtml = `
+		<div id="center-preload">
+		<div id="suns">
+		<img class="ren-logo" src="elmt/ren-logo.png" alt="ren19-logo">
+		<div class="sunss" style="width: 16%;">
+		<img id="sun1" src="elmt/sun2.png" alt="sun2">
+		<img src="elmt/sun1.png" alt="" style="display: none;">
+		</div>
+		</div>
+		</div>`
 
-		// body.insertAdjacentHTML('afterbegin', loaderHtml)
-		// const image1 = 'elmt/sun1.png'
-		// const image2 = 'elmt/sun2.png'
+		body.insertAdjacentHTML('afterbegin', loaderHtml)
+		const image1 = 'elmt/sun1.png'
+		const image2 = 'elmt/sun2.png'
 
-		// function changeImage () {
-		// 	// console.log('image is changing')
-		// 	const currentImage = document.getElementById('sun1')
-		// 	// console.log(currentImage)
-		// 	if (currentImage.alt === 'sun2') {
-		// 		currentImage.src = 'elmt/sun1.png'
-		// 		currentImage.alt = 'sun1'
-		// 	} else {
-		// 		currentImage.src = 'elmt/sun2.png'
-		// 		currentImage.alt = 'sun2'
-		// 	}
-		// }
-		// $(document).ready(() => {
-		// 	const timerId = setInterval(changeImage, 80)
-		// 	$(window).load(() => {
-		// 		$('#center-preload').delay(2000).fadeOut('slow',"linear",function(){ clearInterval(timerId) })
-		// 	})
-		// })
+		function changeImage () {
+			// console.log('image is changing')
+			const currentImage = document.getElementById('sun1')
+			// console.log(currentImage)
+			if (currentImage.alt === 'sun2') {
+				currentImage.src = 'elmt/sun1.png'
+				currentImage.alt = 'sun1'
+			} else {
+				currentImage.src = 'elmt/sun2.png'
+				currentImage.alt = 'sun2'
+			}
+		}
+		$(document).ready(() => {
+			const timerId = setInterval(changeImage, 80)
+			$(window).load(() => {
+				$('#center-preload').delay(2000).fadeOut('slow',"linear",function(){ clearInterval(timerId) })
+			})
+		})
 	</script>
 	<script src="js/logo_change.js"></script>
 </body>
