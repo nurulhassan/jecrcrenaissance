@@ -1,0 +1,219 @@
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+/*  CLOUDS  */
+
+.cloud1{
+  position: fixed;
+  top: 5%;
+  z-index: -2;
+  opacity: .5;
+}
+.cloud2{
+  position: fixed;
+  top: 5%;
+  z-index: -2;
+  opacity: .5;
+}
+
+.cloud3{
+  position: fixed;
+  top: 15%;
+  z-index: -2;
+  opacity: .5;
+}
+
+/*  LOGO  */
+#jecrc{
+  position: absolute;
+  left: -10%;
+  top: 10px;
+  z-index: 10;
+}
+
+.ren{
+  text-align: center;
+}
+.logo_ren{
+  position: absolute;
+  top: -18px;
+  left: 5%;
+  animation: pop 8s;
+  z-index: 1;
+  animation-fill-mode: both;
+}
+@keyframes pop {
+  from{
+    -webkit-transform: translate(0px,-200px);
+  }
+  to{
+    -webkit-transform: translate(0px , -28px);
+    }
+}
+
+.minute{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.agent{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+}
+.rap{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.beat{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.mad{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 2.0s;
+  animation-fill-mode: both;
+}
+.hunting{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+.silent{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 3.0s;
+  animation-fill-mode: both;
+}
+.open{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 3.5s;
+  animation-fill-mode: both;
+}
+.game{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 4.0s;
+  animation-fill-mode: both;
+}
+.lan{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 4.5s;
+  animation-fill-mode: both;
+}
+.antakshri{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+}
+
+.pillow{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+}
+.face{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+.street{
+  position: absolute;
+  top: 170px;
+  animation: log 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}
+.gully{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+.campus{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+.basketball{
+  position: absolute;
+  top: 500px;
+  animation: log 2s;
+  animation-delay: 3.0s;
+  animation-fill-mode: both;
+}
+.nav{
+  position: absolute;
+  top: 200px;
+
+
+}
+.inactive{
+	color: white;
+  text-align: center;
+}
+
+.logo img{
+  margin-top: 100px;
+  padding: 0%;
+
+}
+
+
+.logo2 img{
+  margin-top: 0px;
+  padding: 0%;
+
+}
+
+@keyframes log {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.logo img:hover{
+  transform: scale(1.2);
+}
+
+
+.logo2 img:hover{
+  transform: scale(1.2);
+}

@@ -1,0 +1,107 @@
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+body {
+  background-image: url("img/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+/*  CLOUDS  */
+
+.cloud1{
+  position: fixed;
+  top: 5%;
+  z-index: -2;
+  opacity: .5;
+}
+.cloud2{
+  position: fixed;
+  top: 5%;
+  z-index: -2;
+  opacity: .5;
+}
+
+.cloud3{
+  position: fixed;
+  top: 15%;
+  z-index: -2;
+  opacity: .5;
+}
+
+/*  LOGO  */
+#jecrc{
+  position: absolute;
+  left: -10%;
+  top: 10px;
+  z-index: 10;
+}
+.coming{
+  position: absolute;
+  top: 250px;
+  margin-left: 50px; 
+  animation: log 2s;
+  animation-delay: .0s;
+  animation-fill-mode: both;
+}
+
+.ren{
+  text-align: center;
+}
+.logo_ren{
+  position: absolute;
+  top: -18px;
+  left: 5%;
+  animation: pop 5s;
+  z-index: 1;
+  animation-fill-mode: both;
+}
+@keyframes pop {
+  from{
+    -webkit-transform: translate(0px,-200px);
+  }
+  to{
+    -webkit-transform: translate(0px , -28px);
+    }
+}
+
+
+
+
+
+
+.logo img{
+  margin-top: 100px;
+  padding: 0%;
+  border: skyblue 2px;
+  border-spacing: 10px;
+  border-style: groove;
+  border-radius: 50%;
+}
+
+
+.logo2 img{
+  margin-top: 0px;
+  padding: 0%;
+
+  border: skyblue 2px;
+  border-spacing: 10px;
+  border-style: groove;
+  border-radius: 50%;
+}
+
+@keyframes log {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.logo img:hover{
+  transform: scale(1.2);
+}
+
+
+.logo2 img:hover{
+  transform: scale(1.2);
+}

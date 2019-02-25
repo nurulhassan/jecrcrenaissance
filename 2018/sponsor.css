@@ -1,0 +1,101 @@
+
+
+body {
+ background-image: url("img/background3.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.logo_ren img{
+  margin-top: -10%;
+  animation: pop 7s;
+  z-index: 1
+  animation-fill-mode: both;
+  margin-left: 10%;
+}
+@keyframes pop {
+  from{
+    -webkit-transform: translate(0px,-200px);
+  }
+  to{
+    -webkit-transform: translate(0px , 0px);
+    }
+}
+
+.our img{
+  margin-left: 55%;
+  margin-top: 30%;
+
+}
+
+body h2, h1{
+  color: #e6fffa;
+  font-family: Abril;
+  font-style: oblique;
+  font-weight: 10;
+}
+
+.geeks img{
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+#jecr:hover{
+  cursor: grabbing;
+}
+
+.love{
+  margin-top: -10%;
+
+}
+
+figcaption{
+
+}
+.geeks img:hover{
+  transform: scale(1.1);
+}
+
+#name{
+  margin-top: 70%;
+  margin-left: 0%;
+}
+
+#name1{
+  margin-top: 10%;
+  margin-left: 0%;
+}
+
+#event{
+  margin-top: 50%;
+
+}
+
+.seal img{
+  margin-top: 10%;
+}
+
+.event{
+  margin-top: -10%;
+}
+
+#um {
+  margin-top: 25%;
+}
+
+#king{
+  margin-top: 7%;
+  margin-left: 12%;
+}
+
+.waffle img{
+  margin-top: 10%;
+}
+
+.mer {
+  transform: scale(1.3);
+}
+
+.edu{
+  transform: scale(1.3);
+}
