@@ -1,0 +1,108 @@
+<!DOCTYPE html><!-- Prateek Joshi -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../elmt/logo.png" type="image/png" sizes="16x16">
+  <title>Renaissance`19 | Gallery</title>
+  <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/prettyPhoto.css" rel="stylesheet">      
+  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body class="homepage"> 
+<div class="head">
+  <div class="logo">
+    <img src="../elmt/logo.png" class="ren_logo">
+  </div>
+  <div class="ren_logo">
+    <img src="../elmt/ren.png" id="image" class="ren_img">
+  </div>
+</div>
+
+<section id="feature" style="margin-bottom: 3px;margin-top: 3px; ">
+  <div class="container">
+   <div class="center wow fadeInDown">
+    <h2 class="gal_name">Our Gallery</h2>
+    <div class="row" id="event-img">
+
+    </div>
+
+
+  </div>
+
+</div>
+</section>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/jquery.isotope.min.js"></script>   
+<script src="js/wow.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+
+
+  var slideIndex = 1;
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  $( document ).ready(function() {
+    console.log( "ready!" );
+    var i;
+
+    for(i = 1; i<=99; i++){
+      $("#event-img").append('<div class="mySlides text-center"><img class="slides" src="img/'+i+'.jpg">  </div>');
+    }
+
+    $("#event-img").append('<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>');
+
+    for(i = 1; i<=99; i++){
+      $("#event-img").append('<div class="column"> <img class="demo cursor" src="img/'+i+'.jpg" style="width:100%" onclick="currentSlide('+i+')" alt="">  </div>');
+    }
+
+
+    showSlides(slideIndex);
+
+  });
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > 99) {slideIndex = 1}
+      if (n < 1) {slideIndex = 99}
+        for (i = 0; i < 99; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+
+      
+    </script>
+    <script>
+      $(document).ready(function(){
+        $('img').click(function(){
+         $("html, body").animate({scrollTop : 100},800);
+         return false;
+       });
+      });
+    </script>
+  </body>
+  </html>
+
