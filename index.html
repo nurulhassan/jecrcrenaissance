@@ -9,6 +9,7 @@
 	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.marquee.min.js"></script>
+ 
 </head>
 <body>
 	<div class="full">
@@ -22,14 +23,21 @@
 					<img class="gate_img doorRight right" src="elmt/gate.jpg" alt="">
 				</div>
 			</div>
-			<img src="elmt/jharokha_gate.png" class="jharokha_img">	
+			<!-- <img src="elmt/jharokha_gate.png" class="jharokha_img jharokha1 inactive">	 -->
+			<img src="elmt/pillar-r.png" class="l pillar" alt="pillar left">
+			<img src="elmt/pillar-l.png" class="r pillar" alt="pillar right">
+			<div class="boi">
+			<img src="elmt/jarokha_gate_final.png" class="jharokha2 jharokha_img">
+			</div>
 			<img src="elmt/padlock-closed.png" class="padlock-img padlock-ani lock" alt="">
 			<div class="knobs-left ">
+				
 				<a href="#"><img src="elmt/knob_about.png" alt="" class="knob-img hover_icon knob-about"></a>
-				<a href="gallery.html"><img src="elmt/knob_gallery.png"  alt="" class="knob-img hover_icon knob-gallery"></a>
+				<a href="gallery/gallery.html"><img src="elmt/knob_gallery.png"  alt="" class="knob-img hover_icon knob-gallery"></a>
+
 			</div>
 			<div class="knobs-right ">
-				<a href="#"><img src="elmt/knob_spnsr.png"  alt="" class="knob-img hover_icon knob-spnsr"></a>	
+				<a href="gallery/sponsorship.html"><img src="elmt/knob_spnsr .png"  alt="" class="knob-img hover_icon knob-spnsr"></a>	
 				<a href="social_media.html"><img src="elmt/knob_social.png" alt="" class="knob-img hover_icon knob-social"></a>
 			</div>
 		<a href="team.html"><img src="elmt/team.png" class="plate team-img animated zoomIn delay-1000s" alt="" ></a>
@@ -51,13 +59,14 @@
 					<img src="elmt/hang21.png" class="hang1_img">
 				</div>
 				<div class="hang1_d2 hover_icon">
-					<a href="endeavour.html"><img src="elmt/endavour.png" class="hang1_icon"></a>
+					<a href="endeavour.html"><img src="elmt/endavour.png" class="hang1_icon cenpunch_ani"></a>
+
 				</div>
 				<div class="hang2_d1">
 					<img src="elmt/hang22.png" class="hang2_img">
 				</div>
 				<div class="hang2_d2 hover_icon">
-					<a href="zarurat.html"><img src="elmt/zarurat.png" class="hang2_icon"></a>
+					<a href="zarurat.html"><img src="elmt/zarurat.png" class="hang2_icon cenpunch_ani"></a>
 				</div>	
 			</div>
 			<div class="rangoli">
@@ -69,28 +78,47 @@
 					<img src="elmt/hang11.png" class="hang3_img">
 				</div>
 				<div class="hang3_d2 hover_icon">
-					<a href="splash.html"><img src="elmt/splash.png" class="hang3_icon"></a>
+					<a href="splash.html"><img src="elmt/splash.png" class="hang3_icon cenpunch_ani"></a>
 				</div>
 				<div class="hang4_d1">
 					<img src="elmt/hang12.png" class="hang4_img">
 				</div>
 				<div class="hang4_d2 hover_icon">
-					<a href="quanta.html"><img src="elmt/quanta.png" class="hang4_icon"></a>
+					<a href="quanta.html"><img src="elmt/quanta.png" class="hang4_icon cenpunch_ani"></a>
 				</div>	
 			</div>		
 		</div>
 
+
+<div class="overlay" style="z-index: 7">
+	<div class="close-n" ><img src="elmt/swords.png" alt="swords" class="swords_img"></div>
+	<div class="overlay-content" style="text-align: center;">
+		<div class="nav-ele about-us"><a href="#"><h1>About-Us</h1></a></div>
+		<div class="nav-ele quanta"><a href="quanta.html"><h1>Quanta</h1></a></div>
+		<div class="nav-ele endevour"><a href="endavour.html"><h1>Endeavour</h1></a></div>
+		<div class="nav-ele splash"><a href="splash.html"><h1>Splash</h1></a></div>
+		<div class="nav-ele zarurat"><a href="zarurat.html"><h1> Zarurat</h1></a></div>
+		<div class="nav-ele gallery"><a href="gallery/gallery.html"><h1> Gallery</h1></a></div>
+		<div class="nav-ele sponsors"><a href="gallery/sponsorship.html"><h1>Sponsors</h1></a></div>
+		<div class="nav-ele social"><a href="social_media.html"><h1> Social</h1></a></div>
+		<div class="nav-ele support"><a href="#"><h1> Support</h1></a></div>
+		<div class="nav-ele team"><a href="team.html"><h1>Team</h1></a></div>		
+	</div>
+	</div>
+
 			<footer class=" foot">
 				<div class="tech-slide">
-				<img src="elmt/footer.png" class=" mover-1">
+				<img src="elmt/food.png" class=" mover-1">
 				</div>
 			</footer>
 
-	</div>
+	
 	<script type = "text/javascript">
+		
+	var DocWidth = $(window).width()
 		$('.tech-slide').marquee({
     //speed in milliseconds of the marquee
-    duration: 5000,
+    duration: 15000,
     //gap in pixels between the tickers
     gap: 0,
     //time in milliseconds before the marquee will start animating
@@ -119,12 +147,14 @@
 				$('.knob-social').addClass("moveSocial");
 				$('.knob-spnsr').addClass("moveSpnsr");
 				$('.knob-gallery').addClass("moveGal");
+				$('.padlock-img').attr("src","elmt/padlock-open.png")
 				setTimeout(function() {
-					$('.jharokha').addClass('jharoka-back')},1500)
+					$('.jharokha').addClass('jharoka-back')},2000)
 				toggler=false;
 				console.log(toggler)
 			}
 			else {//unlocked config
+				$('.jharokha').removeClass('jharoka-back')
 				$('.knob-about').removeClass("moveAb");
 				$('.knob-social').removeClass("moveSocial");
 				$('.knob-spnsr').removeClass("moveSpnsr");
@@ -135,15 +165,30 @@
 				$('.knob-social').addClass("moveSocial-back");
 				$('.knob-spnsr').addClass("moveSpnsr-back");
 				$('.knob-gallery').addClass("moveGal-back");
-				$('.jharokha').removeClass('jharoka-back')
+				$('.padlock-img').attr("src","elmt/padlock-closed.png")
+				
 				toggler=true;
 				console.log(toggler)
 			}
 		});	
 
 
-
-
+		$('.cenline_img').click(()=>{
+			// if (DocWidth<500) {
+			$(".overlay").width("100%")
+			$(".swords_img").removeClass("inactive")
+		// }
+		})
+		$(".swords_img").click(()=>
+		{
+			$(".overlay").width("0%")
+			$(".swords_img").addClass("inactive")
+		})
+		$(".overlay-content").click(()=>
+		{
+			$(".overlay").width("0%")
+			$(".swords_img").addClass("inactive")
+		})
 
 		const body = document.getElementsByTagName('body')[0]
 		const loaderHtml = `
@@ -172,13 +217,91 @@
 				currentImage.src = 'elmt/sun2.png'
 				currentImage.alt = 'sun2'
 			}
+
+
 		}
+		var DocHeight = $(window).height()
 		$(document).ready(() => {
-			const timerId = setInterval(changeImage, 80)
+			
+			const timerId = setInterval(changeImage, 500)
 			$(window).load(() => {
 				$('#center-preload').delay(2000).fadeOut('slow',"linear",function(){ clearInterval(timerId) })
+					
+					console.log(DocWidth)
+					if(DocWidth>=500){
+					$('.jharokha_img').attr("src","elmt/jharokha_gate.png")
+					$('.jharokha_img').addClass("jharokha1")
+					$('.jharokha_img').removeClass("jharokha2")
+					$('.jharokha').addClass("jharoka-back")
+					$('.gate-contain').remove()
+					$('.knobs-right').remove()
+					$('.knobs-left').remove()
+					$('.padlock-img').remove()
+					$('.plate').remove()
+					$(".swords_img").addClass("inactive")
+					$('.pillar').addClass('inactive')
+					$('.boi').removeClass("jharoka_in")
+
+					
+				}
+				else
+				{	
+					$('.gate-contain').remove()
+					$('.knobs-right').remove()
+					$('.knobs-left').remove()
+					$('.padlock-img').remove()
+					$('.plate').remove()
+					$('.jharokha').addClass("jharoka-back")
+					$('.hang1_icon').addClass("cenpunch_ani")
+					$('.hang2_icon').addClass("cenpunch_ani")
+					$('.hang3_icon').addClass("cenpunch_ani")
+					$('.hang4_icon').addClass("cenpunch_ani")
+					$(".swords_img").addClass("inactive")		
+					$('.pillar').removeClass('inactive')	
+					$('.boi').addClass("jharoka_in")
+					$('.pillar').attr('height',DocHeight)
+
+
+				}
 			})
 		})
+
+			$(window).resize(() =>{
+					var DocWidth = $(window).width()
+					var DocHeight = $(window).height()
+					// console.log(DocWidth)
+					if(DocWidth>=500){
+					$('.jharokha_img').attr("src","elmt/jharokha_gate.png")
+					$('.jharokha_img').addClass("jharokha1")
+					$('.jharokha_img').removeClass("jharokha2")
+					$('.pillar').addClass("inactive")
+					$('.boi').removeClass("jharoka_in")
+
+
+				}
+				else{
+					$('.jharokha_img').attr("src","elmt/jarokha_gate_final.png")
+					$('.jharokha_img').removeClass("jharokha1")
+					$('.jharokha_img').addClass("jharokha2")
+					$('.gate-contain').remove()
+					$('.knobs-right').remove()
+					$('.knobs-left').remove()
+					$('.padlock-img').remove()
+					$('.plate').remove()
+					$('.jharokha').addClass("jharoka-back")
+					$('.hang1_icon').addClass("cenpunch_ani")
+					$('.hang2_icon').addClass("cenpunch_ani")
+					$('.hang3_icon').addClass("cenpunch_ani")
+					$('.hang4_icon').addClass("cenpunch_ani")
+					$('.pillar').removeClass("inactive")
+					$('.boi').addClass("jharoka_in")
+					$('.pillar').attr('height',DocHeight)
+
+				}
+					
+				
+		})
+
 	</script>
 	<script src="js/logo_change.js"></script>
 </body>
