@@ -1110,6 +1110,9 @@ html , body {
 	background-size: contain ;
 	right: 0;
 	transition: 1s;
+	height: 100%;
+	/*max-height: 1000px;*/
+	overflow-y: scroll;
 	top: 0;
 	font-family: 'SAMAN___',Arial ;
 }
@@ -1156,6 +1159,7 @@ html , body {
 	background-color:white;
 	opacity: 0.5;
 	overflow-y: scroll;
+	/*max-height: 1000px;*/
 
 }
 
@@ -1184,8 +1188,11 @@ html , body {
 		.margin_top{
 			height: 10%;
 		}
-		.mid_quant, .mid_team{
+		.mid_team{
 			bottom: auto;
+			padding-top: 3%;
+		}
+		.mid_quant{
 			padding-top: 3%;
 		}
 
