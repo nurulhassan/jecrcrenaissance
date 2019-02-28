@@ -1100,7 +1100,7 @@ html , body {
 
 @font-face {
 	font-family: "SAMAN___";
-	src: url("../fonts/SAMAN___.ttf");
+	src: url("../fonts/SAMAN___.TTF");
 }
 .overlay {
 	position: fixed;
