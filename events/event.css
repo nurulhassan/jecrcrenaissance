@@ -1,5 +1,7 @@
 /*Support*/
-
+body{
+	margin:0;
+}
 
 .certificate_top{
 	width: 100%;
@@ -21,12 +23,15 @@
 .certificate_main{
 	position: absolute;
 	margin: auto;
-	top: 14%;
+	top: 24%;
 	right: 0;
 	left: 0;
 	width: 75%;
-	height: 45%;
+	height: 59%;
 	overflow-y: scroll;
+	background: #e6e3df;
+	opacity: 0.7;
+	border-radius: 20px;
 }
 
 @font-face {
@@ -52,7 +57,12 @@
 	line-height: 2;
 }
 *{
-	font-size: 14px;
+	font-size: 17px;
+}
+@media only screen and (max-width: 600px){
+*{
+	font-size: 20px;
+}
 }
 
 
@@ -67,4 +77,8 @@
 }*/
 .top_font{
 	font-family: 'SAMAN___',Arial;
+	color: #ce650f;
+}
+ul{
+	padding: 0;
 }
