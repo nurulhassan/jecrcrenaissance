@@ -1,17 +1,18 @@
 
 var DocWidth = $(window).width()
-var DocHeight = $(document).height()
+var DocHeight = $('.row').height() 
 $(document).ready(() => {
 			
 		
 			$(window).load(() => {
 				// $('#center-preload').delay(2000).fadeOut('slow',"linear",function(){ clearInterval(timerId) })
 					
-					// console.log(DocWidth)
+					console.log(DocHeight)
 					if(DocWidth>=768){
 					$('.jharokha_img').attr("src","elmt/jharokha1old.png")
 					$('.jharokha').addClass("jharoka-back")
 					$('.pillar').addClass("inactive")
+					$('.pillar').attr('height',"100%")
 					$('.jharokha_img').removeClass('inactive')
 				}
 				else
@@ -20,27 +21,33 @@ $(document).ready(() => {
 					$('.jharokha_img').attr("src","elmt/jarokha_gate_final.png")
 					$('.pillar').removeClass('inactive')
 					$('.jharokha').addClass("jharoka-back")
-					$('.pillar').attr('height',DocHeight)
+					if(DocWidth<576){
+						$('.pillar').attr('height',DocHeight)
+					}
 				}
+
 			})
 		})
 
 			$(window).resize(() =>{
 					var DocWidth = $(window).width()
-					var DocHeight = $(document).height()
+					var DocHeight = $('.row').height() 
 					console.log(DocHeight)
 					if(DocWidth>=768){
 					$('.jharokha_img').attr("src","elmt/jharokha1old.png")
 					$('.pillar').addClass('inactive')
 					$('.jharokha_img').removeClass('inactive')
+					$('.pillar').attr('height',"100%")
 					
 				}
 				else{
 					$('.jharokha_img').attr("src","elmt/jarokha_gate_final.png")
-					$('.pillar').attr('height',DocHeight)
 					$('.pillar').removeClass('inactive')
 					$('.jharokha').addClass("jharoka-back")
 					$('.jharokha_img').removeClass('inactive')
+					if(DocWidth<576){
+						$('.pillar').attr('height',DocHeight)
+					}
 				}
 					
 				
