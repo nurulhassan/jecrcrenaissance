@@ -36,20 +36,30 @@
 </div>
 <div class="mid_in">
   <div class="owl-carousel">
-    <div><a href="#"><img src="event_logo/splash/basket_ball_shooting.png" alt="" class="img-fluid hover_icon"></a></div>
+    <div><a href="#"><img src="event_logo/splash/basket_ball_shooting.png" alt="" class="img-fluid hover_icon dept_team"></a></div>
     <!-- <div><a href="#"><img src="event_logo/quanta/mech/mighty_throttle.png" alt="" class="img-fluid hover_icon"></a></div> -->
     <!-- <div><a href="#"><img src="event_logo/quanta/mech/olym_rmech.png" alt="" class="img-fluid hover_icon"></a></div> -->
     
   </div>    
 </div>  
-</div>
-<script>
+</div><script>
+  
   $('.owl-carousel').owlCarousel({
-    autoplay: true,
-    center: true,
-    loop: true,
-    nav: true,
-  });
+    // autoplay:true,
+    loop:true,
+    nav:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            
+        },
+        768:{
+            items:3,
+            
+        },
+    }
+})
 </script>
 
 <script src="js/jharoka.js"></script>
