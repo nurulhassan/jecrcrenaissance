@@ -114,3 +114,16 @@ ul{
 	}
 	
 }
+
+.certificate_intnary {
+    position: relative;
+    margin: auto;
+    top: 24%;
+    right: 0;
+    left: 0;
+    width: 90%;
+    height: 58%;
+    background-color: #e6e3df;
+    overflow-y: scroll;
+    border-radius: 20px;
+}
