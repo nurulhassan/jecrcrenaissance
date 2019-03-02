@@ -37,28 +37,49 @@
       <img src="elmt/ren.png" id="image" class="renin_img">
     </div>
   </div>
-  <div class="mid_quant">
+  <div class="mid_in">
     <div class="owl-carousel">
+      <div><a href="coordinator.html"><img src="frame/coordinator.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="website.html"><img src="frame/website.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="social_media_team.html"><img src="frame/social_media.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="sponsorship_team.html"><img src="frame/sponsorship.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="designing.html"><img src="frame/designing.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="accomodation.html"><img src="frame/accommodation.png" class="dept_team hoverteam_icon "></a></div>
       <div><a href="promotion.html"><img src="frame/promotion.png" class="dept_team hoverteam_icon "></a></div>
-      <div><a href="coordinator.html"><img src="frame/coordinator.png" class="dept_team hoverteam_icon "></a></div>
+      
 
     </div>    
   </div>  
 </div>
 <script>
+  
+  $('.owl-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    nav:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            
+        },
+        768:{
+            items:3,
+            
+        },
+    }
+})
+</script>
+<!-- <script>
   $('.owl-carousel').owlCarousel({
     autoplay: true,
     center: true,
     loop: true,
     nav: true,
   });
-</script>
+</script> -->
 <script src="js/jharoka.js"></script>
 <script src="js/logo_change.js"></script>
+
 </body>
 </html>

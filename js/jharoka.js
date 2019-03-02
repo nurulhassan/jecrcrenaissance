@@ -22,8 +22,10 @@ $(document).ready(() => {
 					$('.pillar').removeClass('inactive')
 					$('.jharokha').addClass("jharoka-back")
 					if(DocWidth<576){
-						$('.pillar').attr('height',DocHeight)
+						$('.pillar').css('height',DocHeight)
+						
 					}
+					$('.pillar').css('top',"34.86%")
 				}
 
 			})
@@ -46,8 +48,10 @@ $(document).ready(() => {
 					$('.jharokha').addClass("jharoka-back")
 					$('.jharokha_img').removeClass('inactive')
 					if(DocWidth<576){
-						$('.pillar').attr('height',DocHeight)
+						$('.pillar').css('height',DocHeight)
+						// $('.pillar').css('top',"34.86%")
 					}
+						$('.pillar').css('top',"34.86%")
 				}
 					
 				
