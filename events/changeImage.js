@@ -25,3 +25,16 @@ $(window).on('resize',function () {
 
 })
 
+
+$('.certificate_main').on('scroll',()=>{
+	$('.nav-pills').css("position","fixed")
+	$('.nav-pills').css("background-color","white")
+	$('.nav-pills').css("width","75%")
+	if(DocWidth>=500){
+		$('.tab-content').css("margin-top","20px")
+	}
+	else{
+		$('.tab-content').css("margin-top","53px")	
+	}
+})
+
