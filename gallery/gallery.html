@@ -27,7 +27,8 @@
 <section id="feature" style="margin-bottom: 3px;margin-top: 3px; ">
   <div class="container">
    <div class="center wow fadeInDown">
-    <h2 class="gal_name">Our Gallery</h2>
+    <h1 class="gal_name">Our Gallery</h1>
+    <h4 class="gal_name galsub_name">Take a glimpse of few of the Renaissance '18 Moments</h4>
     <div class="row" id="event-img">
 
     </div>
@@ -61,13 +62,13 @@
     console.log( "ready!" );
     var i;
 
-    for(i = 1; i<=52; i++){
+    for(i = 1; i<=51; i++){
       $("#event-img").append('<div class="mySlides text-center"><img class="slides" src="img/'+i+'.jpg">  </div>');
     }
 
     $("#event-img").append('<a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>');
 
-    for(i = 1; i<=52; i++){
+    for(i = 1; i<=51; i++){
       $("#event-img").append('<div class="column"> <img class="demo cursor" src="img/'+i+'.jpg" style="width:100%" onclick="currentSlide('+i+')" alt="">  </div>');
     }
 
@@ -81,9 +82,9 @@
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("demo");
     var captionText = document.getElementById("caption");
-    if (n > 52) {slideIndex = 1}
-      if (n < 1) {slideIndex = 52}
-        for (i = 0; i < 52; i++) {
+    if (n > 51) {slideIndex = 1}
+      if (n < 1) {slideIndex = 51}
+        for (i = 0; i < 51; i++) {
           slides[i].style.display = "none";
         }
         for (i = 0; i < dots.length; i++) {
