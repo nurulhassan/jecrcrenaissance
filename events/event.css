@@ -181,5 +181,10 @@ body{
 		background: #e6e3df;
 		opacity: 0.7;
 		border-radius: 20px;
+		scrollbar-width: none; /* Firefox */
+		-ms-overflow-style: none;  /* IE 10+ */
 	}
-
+	.certificate_new::-webkit-scrollbar { /* WebKit */
+		width: 0;
+		height: 0;
+	}
