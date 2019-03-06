@@ -179,6 +179,7 @@ img.hover-shadow {
     width: 100%;
     position: relative;
     margin-top: 14px;
+    padding-bottom: 30px;
 }
 .logo{
   width: 20%;
@@ -199,13 +200,16 @@ img.hover-shadow {
 }
 .ren_img{
   height: 100%;
-  width: 100%;y
+  width: 100%;
 }
 
 .gal_name {
     text-align: center;
-    font-size: 55px;
     font-family: 'Laila', serif;
     color: #dbad41;
 }
 
+.galsub_name{
+  padding-bottom: 20px;
+  color:#f0d8ae;
+}
