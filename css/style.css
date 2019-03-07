@@ -969,7 +969,7 @@ html , body {
 .mid_in{
 	width: 80%;
 	position: absolute;
-	bottom: 20%;
+	bottom: 10%;
 	left: 14%;
 	right: 0;
 	margin: auto;
@@ -1204,7 +1204,7 @@ html , body {
 		}
 		.dept_team{
 			margin:auto;
-			width: 60%!important;
+			width: 37%!important;
 		}
 
 	}
@@ -1228,7 +1228,7 @@ html , body {
 		}
 		.dept_team{
 			margin:auto;
-			width: 91%!important;
+			width: 53%!important;
 		}
 	}
 
