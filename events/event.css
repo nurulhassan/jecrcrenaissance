@@ -26,6 +26,7 @@ body{
 	top: 24%;
 	right: 0;
 	left: 0;
+	z-index: 1;
 	width: 75%;
 	height: 59%;
 	overflow-y: scroll;
@@ -99,6 +100,7 @@ body{
 		position: absolute;
 		bottom: 5%;
 		width: 100%; 
+		z-index: 0;
 	}
 	.date{
 		object-fit: contain;
