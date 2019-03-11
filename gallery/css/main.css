@@ -221,3 +221,20 @@ img.hover-shadow {
 .pb-4 {
   padding-bottom:21px;
 }
+
+@font-face {
+  font-family: "SAMAN___";
+  src: url("../../fonts/SAMAN___.TTF");
+}
+.spon_cat{
+text-align: center;
+font-family: 'SAMAN___',Arial ;
+color: #ffffff;
+font-size: 37px;
+}
+
+.spon_title{
+text-align: center;
+font-size: 45px;
+}
+}
