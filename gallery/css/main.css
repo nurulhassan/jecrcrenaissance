@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+
+.pb-4 {
+  padding-bottom:21px;
+}@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 body {
   background: #fff;
   font-family:'Open Sans', Arial, sans-serif;
@@ -179,6 +182,7 @@ img.hover-shadow {
     width: 100%;
     position: relative;
     margin-top: 14px;
+    padding-bottom: 30px;
 }
 .logo{
   width: 20%;
@@ -199,12 +203,73 @@ img.hover-shadow {
 }
 .ren_img{
   height: 100%;
-  width: 100%;y
+  width: 100%;
 }
 
 .gal_name {
     text-align: center;
-    font-size: 55px;
     font-family: 'Laila', serif;
     color: #dbad41;
 }
+
+.galsub_name{
+  padding-bottom: 20px;
+  color:#f0d8ae;
+}
+
+
+.pb-4 {
+  padding-bottom:21px;
+}
+
+@font-face {
+  font-family: "SAMAN___";
+  src: url("../../fonts/SAMAN___.TTF");
+}
+.spon_cat{
+text-align: center;
+font-family: 'SAMAN___',Arial ;
+color: #ffffff;
+font-size: 37px;
+}
+
+.spon_title{
+text-align: center;
+font-size: 45px;
+}
+}
+
+.mid_new{
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    bottom: 0;
+  }
+
+  .certificate_new {
+    position: relative;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #e6e3df;
+    opacity: 0.7;
+    border-radius: 20px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  .certificate_new::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+  .hover_icon:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
