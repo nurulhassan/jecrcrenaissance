@@ -16,8 +16,16 @@
 <body>
 	<div class="full">
 		<div class="certificate">
-			<img src="../../elmt/farme.png" class="certificate_img">
+			<img src="" class="certificate_img">
 		</div>
+       <div class="top_icon">
+				<div class="left">
+				<a href="../../endeavour.html"><img src="../../elmt/left.png" class="left_img hover_icon"></a>
+				</div>
+				<div class="home">
+				<a href="../../index.html"><img src="../../elmt/home.png" class="home_img hover_icon"></a>
+				</div>
+
 		<div class="certificate_main">
 			
 			<!-- Nav pills -->
@@ -126,5 +134,48 @@
 					<img src="../../elmt/date.png" alt="" class="date">
 				</div>
 			<script type="text/javascript" src="../changeImage.js"></script>
+			<script type="text/javascript">
+				
+var DocWidth = $(window).width()
+// var DocHeight = $(document).height()
+
+$(document).ready(() => {
+			// console.log(DocWidth)
+					
+					console.log(DocWidth)
+					if(DocWidth<=660){
+						$('.certificate_img').attr("src","../../elmt/frame.png")
+					}
+					else{
+						$('.certificate_img').attr("src","../../elmt/farme.png")	
+					}
+
+			})
+$(window).on('resize',function () { 
+ 		var DocWidth = $(window).width()
+		if(DocWidth<=660){
+						$('.certificate_img').attr("src","../../elmt/frame.png")
+					}
+					else{
+						$('.certificate_img').attr("src","../../elmt/farme.png")	
+					}
+
+})
+
+
+$('.certificate_new').on('scroll',()=>{
+	$('.nav-pills').css("position","fixed")
+	$('.nav-pills').css("background-color","white")
+	$('.nav-pills').css("width","75%")
+	if(DocWidth>=500){
+		$('.tab-content').css("margin-top","20px")
+	}
+	else{
+		$('.tab-content').css("margin-top","53px")	
+	}
+})
+
+
+			</script>
 		</body>
 		</html>
