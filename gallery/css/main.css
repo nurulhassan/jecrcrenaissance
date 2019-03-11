@@ -238,3 +238,38 @@ text-align: center;
 font-size: 45px;
 }
 }
+
+.mid_new{
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    width: 75%;
+    height: 60%;
+    bottom: 0;
+  }
+
+  .certificate_new {
+    position: relative;
+    margin: auto;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    background: #e6e3df;
+    opacity: 0.7;
+    border-radius: 20px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE 10+ */
+  }
+  .certificate_new::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+  .hover_icon:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+  }
