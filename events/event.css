@@ -190,3 +190,8 @@ body{
 		width: 0;
 		height: 0;
 	}
+	.hover_icon:hover {
+		-ms-transform: scale(1.2); /* IE 9 */
+		-webkit-transform: scale(1.2); /* Safari 3-8 */
+		transform: scale(1.2); 
+	}
