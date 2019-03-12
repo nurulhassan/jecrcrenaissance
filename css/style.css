@@ -1160,7 +1160,7 @@ html , body {
 	}
 	.overlay-content{
 		height: 100%;
-		background-image: linear-gradient(#d01b32,#c06a29);
+		background-image: linear-gradient(#1d6c04,#0c0808);
 		opacity: 0.5;
 		/*overflow-y: scroll;*/
 		/*max-height: 1000px;*/
