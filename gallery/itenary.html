@@ -1039,7 +1039,18 @@
 				
 			})
 
-			
+			$('.certificate_intnary').on('scroll',()=>{
+	$('.nav-pills').css("position","fixed")
+	$('.nav-pills').css("background-color","white")
+	$('.nav-pills').css("width","90%")
+	$('.nav-pills').css("border-radius","20px")
+	if(DocWidth>=500){
+		$('.tab-content').css("margin-top","20px")
+	}
+	else{
+		$('.tab-content').css("margin-top","53px")	
+	}
+})
 		</script>
 	</body>
 	</html>
